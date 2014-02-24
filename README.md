@@ -1,16 +1,10 @@
-﻿magic
+﻿MAGIC
 =====
 
+#markdown：
 
-这里都是一些常用或备用的文章
+关于Markdown用法，入门，常见问题的记录。
 
-11222
+#git
 
-
-
-dev branch
-
-asdasdfasd
-
-
-push dev
+关于git的入门，常用方法，常见问题的记录。
