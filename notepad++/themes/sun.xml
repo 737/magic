@@ -189,6 +189,21 @@
             <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="808080" bgColor="FEFCF5" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="NUMBER" styleID="14" fgColor="804040" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
+        <LexerType name="css" desc="CSS" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TAG" styleID="1" fgColor="0000FF" bgColor="FFFFFF" fontName="Batang" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS" styleID="2" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="FF8080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="6" fgColor="8080C0" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="9" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ID" styleID="10" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IMPORTANT" styleID="11" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DIRECTIVE" styleID="12" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="cobol" desc="COBOL" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
@@ -287,7 +302,7 @@
             <WordsStyle name="OPERATOR" styleID="10" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
-            <WordsStyle name="DEFAULT" styleID="32" fgColor="2E2E2E" bgColor="FFFFFF" />
+            <WordsStyle name="DEFAULT" styleID="32" fgColor="2E2E2E" bgColor="FFFFFF" fontSize="" fontStyle="0" />
         </LexerType>
         <LexerType name="fortran" desc="Fortran" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
@@ -366,8 +381,8 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1">alert appendChild arguments array blur checked childNodes className confirm dialogArguments event focus getElementById getElementsByTagName innerHTML keyCode length location null number parentNode push RegExp replace selectNodes selectSingleNode setAttribute split src srcElement test undefined value window</WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="">XmlUtil loadXmlString TopologyXmlTree NotificationArea loadXmlFile debug</WordsStyle>
             <WordsStyle name="STRING" styleID="6" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
@@ -381,18 +396,18 @@
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="javascript" desc="Javascript" ext="">
-            <WordsStyle name="DEFAULT" styleID="41" fgColor="333333" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="NUMBER" styleID="45" fgColor="009999" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="WORD" styleID="46" fgColor="333333" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="KEYWORD" styleID="47" fgColor="4183c4" bgColor="F7F7F7" fontName="" fontStyle="1" fontSize="10" keywordClass="instre1">alert appendChild arguments array blur checked childNodes className confirm dialogArguments event focus getElementById getElementsByTagName innerHTML keyCode length location null number parentNode push RegExp replace selectNodes selectSingleNode setAttribute split src srcElement test undefined value window</WordsStyle>
-            <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="DD1144" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10">XmlUtil loadXmlString TopologyXmlTree NotificationArea loadXmlFile debug</WordsStyle>
-            <WordsStyle name="SINGLESTRING" styleID="49" fgColor="DD1144" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="SYMBOLS" styleID="50" fgColor="000000" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="STRINGEOL" styleID="51" fgColor="840E0B" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="REGEX" styleID="52" fgColor="009926" bgColor="F7F7F7" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="COMMENT" styleID="42" fgColor="999988" bgColor="F7F7F7" fontName="&#x5B8B;&#x4F53;" fontStyle="2" fontSize="10" />
-            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="999988" bgColor="F7F7F7" fontName="&#x65B0;&#x5B8B;&#x4F53;" fontStyle="2" fontSize="10" />
-            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="999988" bgColor="F7F7F7" fontName="&#x5B8B;&#x4F53;" fontStyle="2" fontSize="10" />
+            <WordsStyle name="DEFAULT" styleID="41" fgColor="333333" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="45" fgColor="009999" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="WORD" styleID="46" fgColor="333333" bgColor="F2F4FF" fontName="Consolas" fontStyle="0" fontSize="11" />
+            <WordsStyle name="KEYWORD" styleID="47" fgColor="4183C4" bgColor="F2F4FF" fontName="Consolas" fontStyle="2" fontSize="11" keywordClass="instre1">alert appendChild arguments array blur checked childNodes className confirm dialogArguments event focus getElementById getElementsByTagName innerHTML keyCode location null number parentNode push RegExp selectNodes selectSingleNode setAttribute split src srcElement test undefined value window</WordsStyle>
+            <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="DD1144" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="10">XmlUtil loadXmlString TopologyXmlTree NotificationArea loadXmlFile debug</WordsStyle>
+            <WordsStyle name="SINGLESTRING" styleID="49" fgColor="DD1144" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOLS" styleID="50" fgColor="000000" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRINGEOL" styleID="51" fgColor="840E0B" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="009926" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="42" fgColor="999988" bgColor="F2F4FF" fontName="&#x4EFF;&#x5B8B;" fontStyle="2" fontSize="10" />
+            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="999988" bgColor="F2F4FF" fontName="&#x4EFF;&#x5B8B;" fontStyle="2" fontSize="10" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="999988" bgColor="F2F4FF" fontName="&#x4EFF;&#x5B8B;" fontStyle="2" fontSize="10" />
         </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
             <WordsStyle name="DEFAULT" styleID="31" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
@@ -801,7 +816,7 @@
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
-        <WidgetStyle name="Global override" styleID="0" fgColor="FFFF80" bgColor="FF8000" fontName="Courier New" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="FFFF80" bgColor="F2F4FF" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="12" />
