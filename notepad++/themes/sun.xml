@@ -405,9 +405,9 @@
             <WordsStyle name="SYMBOLS" styleID="50" fgColor="000000" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRINGEOL" styleID="51" fgColor="840E0B" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="REGEX" styleID="52" fgColor="009926" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="42" fgColor="999988" bgColor="F2F4FF" fontName="&#x4EFF;&#x5B8B;" fontStyle="2" fontSize="10" />
-            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="999988" bgColor="F2F4FF" fontName="&#x4EFF;&#x5B8B;" fontStyle="2" fontSize="10" />
-            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="999988" bgColor="F2F4FF" fontName="&#x4EFF;&#x5B8B;" fontStyle="2" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="42" fgColor="999988" bgColor="F2F4FF" fontName="Microsoft YaHei, YaHei" fontStyle="2" fontSize="10" />
+            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="999988" bgColor="F2F4FF" fontName="Microsoft YaHei, YaHei" fontStyle="2" fontSize="10" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="999988" bgColor="F2F4FF" fontName="Microsoft YaHei, YaHei" fontStyle="2" fontSize="10" />
         </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
             <WordsStyle name="DEFAULT" styleID="31" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
