@@ -1,14 +1,13 @@
 
 ##如何修改git push时的密码
 
-
 ###如下:
 * 打开git bash
 * 输入 `$ cd ~/.ssh`
 * `$ ls` 确定有 *id_rsa* 和 *id_rsa.pub*文件
 * `$ ssh-keygen -p -f id_rsa`
 * 第一次输入旧密码
-* 新密码
+* 新密码(可置为空)
 * 确认新密码
 
 ###说明
