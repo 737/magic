@@ -1,51 +1,57 @@
 Markdown语法简单介绍
 ===================
 
-[reference](http://daringfireball.net/projects/markdown/syntax#em) -> \[words\](url)
------
+Title
+=====
 
-Title -> =====
-========
-
-subTitle  -> ----
+subTitle
 ----------
 
-#  Title ->  # 
+# Title
 
-## subTitle -> ## 
+## subTitle
 
-* 1  -> *
-* 2  -> *
-* 3  -> *
-* 4  -> *
+### subTitle
+
+#### subTitle
+
+#####  subTitle
+
+###### subTitle
+
+* 1
+* 2
+* 3
+* 4
 
 <ul>
-	<li>- 文本1  -> -</li>
-	<li>- 文本2  -> -</li>
-	<li>- 文本3  -> -</li>
-	<li>- 文本4  -> -</li>
+	<li>- 文本1</li>
+	<li>- 文本2</li>
+	<li>- 文本3</li>
+	<li>- 文本4</li>
 </ul>
 
 <ul>
-	<li>1. C#  -> 1.</li>
-	<li>2. javascript  -> 2.</li>
-	<li>3. java  -> 3.</li>
+	<li>1. C#</li>
+	<li>2. javascript</li>
+	<li>3. java</li>
 </ul>
 
-+ fruit -> +
-    * apple -> *
-    * orange -> *
-+ car -> +
-    * Ford -> *
-    * Das -> *
-    * Benz -> *
-+ city -> +
++ fruit
+    * apple
+    * orange
++ car
+    * Ford
+    * Das
+    * Benz
++ city
 
 
 
-<http://www.github.com/suncms/> -> <url\>
 
-[SunCMS](http://www.github.com/suncms) -> \[words\](url)
+<http://www.github.com/suncms/>
+
+[SunCMS](http://www.github.com/suncms)
 
 ![Arleigh](https://2.gravatar.com/avatar/e33ef2b191a87d6f2e124b7338eb2f14?d=https%3A%2F%2Fidenticons.github.com%2F0e800add69da66d65a0a7a011bf4b3a8.png&r=x&s=140 'Arleigh')
 
@@ -76,14 +82,18 @@ publick void main(string[] args)
 }
 ```
 
-*斜体* -> \*word\*
+*斜体1*
 
-**粗体** -> \*\*word\*\*
+_斜体2_
 
-_single underscores_    -> \_single word
+**粗体1**
 
-__double underscores__    -> \__double word
+__粗体2__
 
 
-> demo    -> \>
->> demo    -> \>\>
+> demo
+>> demo
+
+---
+
+[reference](http://daringfireball.net/projects/markdown/syntax#em)
