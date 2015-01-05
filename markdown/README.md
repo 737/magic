@@ -46,9 +46,6 @@ subTitle
     * Benz
 + city
 
-
-
-
 <http://www.github.com/suncms/>
 
 [SunCMS](http://www.github.com/suncms)
