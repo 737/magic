@@ -1,6 +1,10 @@
 Markdown语法简单介绍
 ===================
 
+分割线
+
+---
+
 Title
 =====
 
@@ -59,12 +63,12 @@ publick void main(string[] args)
 }
 `
 
-````
+```
 publick void main(string[] args) 
 {
     console.write("Hello Markdown!");
 }
-````
+```
 
 ```C#
 publick void main(string[] args) 
@@ -88,9 +92,8 @@ _斜体2_
 __粗体2__
 
 
-> demo
->> demo
-
----
+> 一级引用
+>> 二级引用
+>>> 三级引用
 
 [reference](http://daringfireball.net/projects/markdown/syntax#em)
