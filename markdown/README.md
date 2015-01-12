@@ -23,23 +23,27 @@ subTitle
 
 ###### subTitle
 
+<p>
+
 * 1
 * 2
 * 3
 * 4
 
-<ul>
-	<li>- 文本1</li>
-	<li>- 文本2</li>
-	<li>- 文本3</li>
-	<li>- 文本4</li>
-</ul>
+<p>
 
-<ul>
-	<li>1. C#</li>
-	<li>2. javascript</li>
-	<li>3. java</li>
-</ul>
+- 文本1
+- 文本2
+- 文本3
+- 文本4
+
+<p>
+
+1. C#
+2. javascript
+3. java
+
+<p>
 
 + fruit
     * apple
@@ -49,6 +53,9 @@ subTitle
     * Das
     * Benz
 + city
+    * 上海
+    * 北京
+
 
 <http://www.github.com/suncms/>
 
